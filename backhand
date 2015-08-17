@@ -1,0 +1,14 @@
+#! /usr/bin/env pyhton
+#_*_config:utf-8 _*_
+
+"""return a string in a list to reves"""
+_Author_ = "frkMaky - licence OpenSource"
+
+def backhand (cadena):
+    cont = len(cadena) - 1
+    temp = []
+    while cont >= 0:
+        temp.append(cadena[cont])
+        cont = cont -1
+    return str(temp)
+
