@@ -1,0 +1,11 @@
+#! /usr/bin/env python
+# -*- UTF-8 -*-
+
+"""PING a Rango Dado de IP's'"""
+import os
+
+#Modify RANGO with the IPs you want show
+RANGO = ("8.8.8.8", "8.8.4.4","127.0.0.1")
+
+for IP in RANGO:
+    print os.system ("ping -c 100 -q -A " + IP)
