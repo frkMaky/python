@@ -4,7 +4,7 @@
 """PING a Rango Dado de IP's'"""
 import os
 
-#Modify RANGO with the IPs you want show
+#Modify RANGO with IPs you want show
 RANGO = ("8.8.8.8", "8.8.4.4","127.0.0.1")
 
 for IP in RANGO:
